@@ -1,20 +1,23 @@
 const SERVER_ROUTES = {
+        LISTAR_USUARIOS: '/lista/usuario',
+        NOVO_USUARIO: '/novo/usuario',
+        REMOVER_USUARIO: '/remove/usuario',
+        ATUALIZAR_USUARIO: '/atualiza/usuario',
+        UNICO_USUARIO: '/lista/usuarioUnico',
 
-    NOVO_USUARIO: 'nov/o/usuario',
-    ATUALIZAR_USUARIO: '/atualiza/usuario',
-    REMOVER_USUARIO: '/remove/usuario',
-    LISTAR_USUARIO: '/lista/usuario',    
+        LISTAR_EQUIPAMENTOS: '/lista/equipamento',
+        NOVO_EQUIPAMENTO: '/novo/equipamento',
+        REMOVER_EQUIPAMENTO: '/remove/equipamento',
+        ATUALIZAR_EQUIPAMENTO: '/atualiza/equipamento',
 
-    NOVO_EQUIPAMENTO: '/novo/equipamento',
-    ATUALIZAR_EQUIPAMENTO: '/atualiza/equipamento',
-    REMOVER_EQUIPAMENTO: '/remove/equipamento',
-    LISTAR_EQUIPAMENTO: '/lista/equipamento',
+        LISTAR_EMPRESTIMOS: '/lista/emprestimo',
+        NOVO_EMPRESTIMO: '/novo/emprestimo',
+        REMOVER_EMPRESTIMO: '/remove/emprestimo',
+        ATUALIZAR_EMPRESTIMO: '/atualiza/emprestimo',
+        LISTAR_EMPRESTIMO_DETALHADOS: '/lista/emprestimoDetalhado',
+        
 
-    LISTAR_EMPRESTIMOS: '/lista/emprestimo',
-    LISTAR_EMPRESTIMOS_DETALHADO: '/lista/emprestimoDetalhado',
-    NOVO_EMPRESTIMO: '/novo/emprestimo',
-    ATUALIZAR_EMPRESTIMO: '/atualiza/emprestimo',
-    REMOVER_EMPRESTIMO: '/remove/emprestimo'
-}
-
-export { SERVER_ROUTES }
+    
+    }
+    
+    export { SERVER_ROUTES }
